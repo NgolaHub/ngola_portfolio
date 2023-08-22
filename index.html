@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website responsivo portfolio designer</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custon css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portf<span>olio</span></a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Inicio</a>
+            <a href="#about">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Ola meu nome é</h3>
+            <h1>Ngola Bumba</h1>
+            <h3>Eu sou <span class="multiple-text"></span></h3>
+            <p>Sou Engenheiro Informatico de nacionalidade angolana presto serviços<br>no sector das tecnologias de
+                informação e designer de multimidias,<br>consultoria a empresas, freelanceres remotamente e ao
+                domicilio.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="images/CV ngola-Densev. Web Front-End.pdf" class="btn" download>Baixe CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/avox transparente1.png" alt="">
+        </div>
+    </section>
+
+    <!-- custom js -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/avox transpaente-png.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">Quem <span>Sou Eu</span></h2>
+            <h3>Desenvolvedor Web Frontend!</h3>
+            <p>Sou Engenhiro Informatico lincenciado na Universidade Lusiada de Angola trabalho com tecnologias
+                desde 2012, mais profissionalmente comecei a atuar no mercado de forma mais intesiva no ano de 2019
+                tenho como principal objectivo garantir as melhores soluções e satisfação dos meus clientes.
+            </p>
+
+            <p>Trago evolução tecnologica para area de T.I.<span id="pontos">...</span><span id="mais">e
+                    Porque acredito que sempre que quisermos melhorar alguma coisa,
+                    as mesmas trarão consigo outros novos desafios e sucessivamente.
+                    Com cerca de 4 anos de experiência profissional distribuídos no sector das tecnologias de informação
+                    ganhei grande experiência na área da informática com trabalhos corporativos e negócios particulares
+                    sempre levando em contas as
+                    melhores práticas do mercado. Mantive os índices de disponibilidade dos serviços acima dos 90% nas
+                    empresas que passei. <br><br>
+
+                    Graças à minha grande capacidade de prevenir e mitigar possíveis cenários futuros evolutivos.
+                </span></p>
+            <a href="#1" onclick="leiaMais()" id="btnLeiaMais" class="btn">Ler Mais</a>
+        </div>
+    </section>
+
+    <!-- service section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Serviços <span>Prestados</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Desenvolvimento Web</h3>
+                <p>Criação, codificação e programação de sites e seus respectivos elementos e linguagens.
+                    armazenamento de banco de dados, cibersegurança,<span id="pontos2">...</span><span id="mais2">Ele
+                        também envolve integração com sistemas e ferramentas,
+                        Lembrando que, os sites e demais programas presentes na internet hoje são muito mais dinâmicos e
+                        necessitam de um desenvolvimento maior<br><br>
+
+                        , com diversas integrações com APIs (Application Programming Interface), preparação e
+                        armazenamento de banco de dados e muito mais.</span></p>
+                <a href="#1" onclick="leiaMais2()" id="btnLeiaMais2" class="btn">Ler Mais</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Designer Grafico</h3>
+                <p>Criação projetos de comunicação visual, tanto para materiais online ou offline, como para páginas de
+                    internet, anúncios, outdoors e panfletos.<span id="pontos3">...</span><span id="mais3">
+                        dominamos os programas mais utilizados do mercado e conhecemos as técnicas mais avançadas para
+                        sair na frente dos concorrentes..<br><br>
+
+                        O designer tem de conseguir passar uma mensagem por meio das cores, imagens, fontes e formas.
+                        Gerando uma comunicação assertiva e que dê
+                        resultados para as empresas.</span></p>
+                <a href="#1" onclick="leiaMais3()" id="btnLeiaMais3" class="btn">Ler Mais</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-video-recording'></i>
+                <h3>Edição de Video</h3>
+                <p>Edição, montagem e finalização de comerciais, vídeo aulas, depoimentos, programas gravados, vídeos e
+                    uma série de materiais de audiovisual.<span id="pontos4">...</span><span id="mais4">
+                        selecionar, ordenar e ajustar os planos de um filme ou outro produto audiovisual a fim de
+                        alcançar o resultado desejado<br><br>
+
+                        seja em termos narrativos, informativos, dramáticos, visuais, experimentais.</span></p>
+                <a href="#1" onclick="leiaMais4()" id="btnLeiaMais4" class="btn">Ler Mais</a>
+            </div>
+        </div><br>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bxl-youtube'></i>
+                <h3>Youtuber</h3>
+                <p>Criação de conteúdo para a plataforma de compartilhamento de vídeos<span id="pontos5">...</span><span
+                        id="mais5">
+                        contrato por marcas e receber para fazer publicidade das formas mais diversas, como comerciais
+                        de TV, vídeos patrocinados e postagens nas redes sociais..<br><br>
+
+                    </span></p>
+                <a href="#1" onclick="leiaMais5()" id="btnLeiaMais5" class="btn">Ler Mais</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-blogger'></i>
+                <h3>Blogueiro</h3>
+                <p>Planejamento, edição, redigir, e promover conteúdo online por meio de websites.<span
+                        id="pontos6">...</span><span id="mais6">
+                        criar um blog, pesquisar sobre os assuntos que vai criar o texto, produzir o texto ,tirar
+                        fotografias para ilustrar o texto, ou pesquisar
+                        por fotografias que se enquadrem no conteúdo, publicar o conteúdo no blog, incluindo redes
+                        sociais,
+                        responder a comentários, procurar patrocinadores, falar com marcas patrocinadoras e negociar com
+                        elas<br><br>
+
+                    </span></p>
+                <a href="#1" onclick="leiaMais6()" id="btnLeiaMais6" class="btn">Ler Mais</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Marketing Digital</h3>
+                <p> Criação estratégias e táticas de comunicação voltadas ao campo do universo digital. Propondo
+                    melhorias e estabelecendo metas<span id="pontos7">...</span><span id="mais7">
+                        Construir percepção de marca e autoridade no tema, Melhorar o ranqueamento nas ferramentas de
+                        busca, Conversão e nutrição de leads, Conversão de novos clientes,
+                        Suporte e atendimento ao cliente, Retenção e fidelização de clientes, Aumentar as vendas<br><br>
+
+                    </span></p>
+                <a href="#1" onclick="leiaMais7()" id="btnLeiaMais7" class="btn">Ler Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Ultimos <span>Projetos</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/deboy_studio1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Deboy</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, consequuntur.</p>
+                    <a href="https://deboystudio.netlify.app" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/kusuti_tech.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Kusuti</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, consequuntur.</p>
+                    <a href="http://kusuti.com" target="_blank"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/corporativoconstrucao1.png" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Projeto Corporativo</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, consequuntur.</p>
+                    <a href="https://corporativoconstrucao.netlify.app" target="_blank"><i
+                            class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, consequuntur.</p>
+                    <a href="#"><i class='bx bx-link-external' target="_blank"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, consequuntur.</p>
+                    <a href="#"><i class='bx bx-link-external' target="_blank"></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/8.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, consequuntur.</p>
+                    <a href="#"><i class='bx bx-link-external' target="_blank"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contate <span>Me!</span></h2>
+
+        <form action="https://formsubmit.co/75ee2fda7d6db1e9ba2b441feb65d1bb" method="POST">
+            <div class="input-box">
+                <input type="text" name="Nome" placeholder="Nome Completo" required>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="Numero de telefone" placeholder="Número de Telemovel">
+                <input type="text" name="Assunto" placeholder="Assunto do Email">
+            </div>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+            <input type="submit" value="Enviar Mensagem" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by codehal | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
